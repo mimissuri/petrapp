@@ -1,0 +1,55 @@
+name: petrapp
+description: ahorra
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  http: ^0.13.4
+  maps_launcher: ^2.0.1
+  geolocator: ^9.0.0
+  location: ^4.4.0
+  shared_preferences: ^2.0.15
+  flutter_launcher_icons: ^0.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/Montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/Montserrat/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/Montserrat/Montserrat-ExtraBold.ttf
+          weight: 800
